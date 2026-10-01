@@ -38,7 +38,7 @@ You need **two terminals**, one for the backend and one for the frontend.
 **Terminal 1: backend**
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/crowdcampaign.git
+git clone https://github.com/aravkavan/crowdcampaign.git
 cd crowdcampaign/backend
 npm install
 npm run seed
