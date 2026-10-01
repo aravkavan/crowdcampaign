@@ -1,0 +1,20 @@
+# Dependencies (npm install recreates them)
+node_modules/
+
+# Build output
+dist/
+
+# Personal secrets: never commit these
+.env.local
+.env.*.local
+.secrets/
+
+# NOTE: backend/.env and frontend/.env ARE committed on purpose (course requirement).
+# They hold only the throwaway database URL and non-secret settings.
+
+# System and editor clutter
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
